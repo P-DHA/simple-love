@@ -1,0 +1,30 @@
+# 依赖与构建产物
+node_modules/
+.expo/
+dist/
+web-build/
+
+# 打包产物（体积过大，不入库）
+*.apk
+*.aab
+
+# 本地工具与密钥
+tools/mingit/
+tools/ngrok/
+
+# 环境变量与凭据
+.env
+.env.*
+*.keystore
+*.jks
+credentials.json
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 日志与临时文件
+*.log
+npm-debug.log*

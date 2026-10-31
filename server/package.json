@@ -1,0 +1,13 @@
+{
+  "name": "simple-love-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "简爱 Simple Love - WebSocket 配对中转服务（Node.js + ws）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
